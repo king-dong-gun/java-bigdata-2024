@@ -4,7 +4,7 @@
 ## 1일차
 # 파이썬 개발환경
    - [깃허브](https://github.com/) 가입
-   - [깃]((https://git-scm.com/download)) 설치
+   - [깃](https://docs.github.com/ko/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop) 설치
    - [깃헙 데스크탑](https://desktop.github.com/) 설치
    - [파이썬](https://pyhton.org) 설치
    - [visual studio](https://code.visualstudio.com/download) 설치
