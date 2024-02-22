@@ -1,5 +1,5 @@
 # file: p08_review.py
-# desc: 리뷰
+# desc: 리뷰01
 
 # Q1
 korean = 80

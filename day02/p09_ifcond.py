@@ -29,6 +29,11 @@ else:
     # 한줄로 표현하고 싶을때 end=
     print('13579', '246810', sep='||') # sep= 문자열 사이에 문자 넣기
 
+    score = 60
+    # 파이썬에서는 조건 연산자를 잘 쓰지 않음
+    # (score >= 60 ? "success" : "falure")
+    print('success' if score >= 60 else 'falure')
+
 
 
 
