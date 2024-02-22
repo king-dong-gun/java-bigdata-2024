@@ -4,12 +4,12 @@
 ## 1일차
 # 파이썬 개발환경
    - 깃헙 가입
-   [깃허브](https://githubs.com/)
-   - 깃 설치
-   - 깃헙 데스크탑 설치
-   - 파이썬 설치
-   - visual studio 설치
-   - 나눔고딕코딩 글자체 설치
+      [깃허브](https://github.com/) 가입
+   - [깃]((https://git-scm.com/download)) 설치
+   - [깃헙 데스크탑](https://desktop.github.com/) 설치
+   - [파이썬](https://pyhton.org) 설치
+   - [visual studio](https://code.visualstudio.com/download) 설치
+   - [나눔고딕코딩](https://githubs.com/naver/nanumfont) 글자체 설치
 
 # 파이썬 개요
    - 1990년 암스테르담의 '귀도 반 로섬'이 개발한 인터프리터 언어.
@@ -26,6 +26,7 @@
       - 문자열 연산
       - 문자열 인덱싱과 슬라이싱
       - 문자열 포매팅
+      
       ```python
       ## f포매팅 3.6(2016)버전 이후에 나온 최신 방식 
       name = '홍길동'
