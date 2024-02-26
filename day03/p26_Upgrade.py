@@ -3,9 +3,8 @@
 
 from p25_Calculator import upgradeCalculator
 
-
 cal = upgradeCalculator()
-cal.add(10)
+cal.add(100)
 cal.minus(7)
 
 

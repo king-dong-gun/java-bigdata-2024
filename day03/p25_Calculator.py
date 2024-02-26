@@ -7,10 +7,10 @@ class calculator :
         self.value = 0
 
     def add (self, val) :
-        self.value += 1
+        self.value += val
 
 class upgradeCalculator(calculator) :
     def minus (self, val) :
-        self.value -= 1
+        self.value -= val
 
 
