@@ -113,4 +113,12 @@ print(f'나는 {name:<10}이고, 나이는 {age:03.1f}세 입니다.') # name �
       - PyQt5Designer 설치
          - Mac Os에서 [PyQt5Designer](https://build-system.fman.io/qt-designer-download) 설치
 
+
+         ![bigdata03](https://github.com/king-dong-gun/java-bigdata-2024/assets/160683545/9f2eb330-61ae-4ea7-a701-35246e64be82)
+         
+   - Naver 뉴스 API 검색 앱      
+         
+         ![bigdata04](https://github.com/king-dong-gun/java-bigdata-2024/assets/160683545/69b904fd-5e09-4ba9-a6ed-14f83bd890b7)
+
+
    
