@@ -139,12 +139,11 @@ print(f'나는 {name:<10}이고, 나이는 {age:03.1f}세 입니다.') # name �
       
       - QLabel 만들기
 
-      ![qLabel](https://github.com/king-dong-gun/java-bigdata-2024/assets/160683545/befe7b90-3f58-42a1-968a-97831b05d756)
+      ![alt text](images/qLabel.png)
          
    - Naver 뉴스 API 검색 앱      
          
-      ![naverApp](https://github.com/king-dong-gun/java-bigdata-2024/assets/160683545/fcc889cb-6805-4d70-b2dc-e1e2cd3f4771) {: width="30" height="30"}
-
+      ![alt text](images/naverApp.png)
 
 
 ## 7일차
@@ -155,14 +154,14 @@ print(f'나는 {name:<10}이고, 나이는 {age:03.1f}세 입니다.') # name �
          - NoThreadApp _ 응답 X
 
 
-         ![noThread](https://github.com/king-dong-gun/java-bigdata-2024/assets/160683545/06a0e215-cf7c-4c01-bd8c-ccda722844f7)
+         ![alt text](images/noThread.png)
 
          
          
          - ThreadApp _ 응답 Ok
 
-
-         ![Thread](https://github.com/king-dong-gun/java-bigdata-2024/assets/160683545/abcf3ccd-dcd8-4eba-af45-0201da9ecdff)
+         ![alt text](images/Thread.png)
+         
 
    - json 학습
       - json 데이터 접근은 파이썬 dictionary, list와 동일하게 사용가능
