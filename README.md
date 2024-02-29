@@ -22,38 +22,30 @@
       - 정수형
       - 실수형
       - 사칙연산
-
-```python
-# 변수만 선언, 값만 할당하면 숫자형으로 지정
-# C, C++, Java, C# 처럼 형 지정이 없음!
-Val = 10 # 정수형
-Val = 2.15 # 실수형
-binVal = 0b11111111 # =255 (2진수)
-```
-
+   ```python
+   # 변수만 선언, 값만 할당하면 숫자형으로 지정
+   # C, C++, Java, C# 처럼 형 지정이 없음!
+   Val = 10 # 정수형
+   Val = 2.15 # 실수형
+   binVal = 0b11111111 # =255 (2진수)
+   ```
    # 문자형
-
-``` python
-#'' , "" 모두 사용가능
-```
-
       - 문자열 연산
       - 문자열 인덱싱과 슬라이싱
       - 문자열 포매팅
-      
-```python
-## f포매팅 3.6(2016)버전 이후에 나온 최신 방식 
-name = '홍길동'
-age = 30
-cont = f'나는 {name}이고, 나이는 {age} 입니다.'
-print(cont)name = '김동건'
-age = 20
-cont = f'나는 {name}이고, 나이는 {age} 입니다.'
-print(cont)
-print(f'나는 {name:>10}이고, 나이는 {age:03d}세 입니다.') # name 앞 10자리 띄어쓰기
-print(f'나는 {name:<10}이고, 나이는 {age:03.1f}세 입니다.') # name 뒤 10자리 띄어쓰기
-# 정수는 f포맷 사용가능, 실수는 d포맷 사용불가
-```
+   ```python
+      ## f포매팅 3.6(2016)버전 이후에 나온 최신 방식 
+         name = '홍길동'
+         age = 30
+         cont = f'나는 {name}이고, 나이는 {age} 입니다.'
+         print(cont)name = '김동건'
+         age = 20
+         cont = f'나는 {name}이고, 나이는 {age} 입니다.'
+         print(cont)
+         print(f'나는 {name:>10}이고, 나이는 {age:03d}세 입니다.') # name 앞 10자리 띄어쓰기
+         print(f'나는 {name:<10}이고, 나이는 {age:03.1f}세 입니다.') # name 뒤 10자리 띄어쓰기
+         # 정수는 f포맷 사용가능, 실수는 d포맷 사용불가
+   ```
 
       - 리스트형, 튜플형 (연산, 함수)
          - 리스트는 수정이나 삭제 가능
@@ -65,11 +57,11 @@ print(f'나는 {name:<10}이고, 나이는 {age:03.1f}세 입니다.') # name �
    - 파이썬 기초문법
       - 딕셔너리, 집합
          - Key, Value를 한쌍으로 가지는 자료형
-         ```python
-         spiderMan = {'name': 'Petter Parker', 'age': 18, 'weapon': 'Web shooter', 'freind': ["ironMan", 'Thor','Captain America']}
-            print(spiderMan)
-            print(spiderMan['name'])
-         ```
+            ```python
+            spiderMan = {'name': 'Petter Parker', 'age': 18, 'weapon': 'Web shooter', 'freind': ["ironMan", 'Thor','Captain America']}
+               print(spiderMan)
+               print(spiderMan['name'])
+            ```
          - 집합은 중복을 허용하지 않고, 순서가 정해지지 않는다.
       - 불형
          - 참, 거짓을 나타내는 자료형
@@ -78,11 +70,11 @@ print(f'나는 {name:<10}이고, 나이는 {age:03.1f}세 입니다.') # name �
          - if문, for문, while문
       - 제어문 연습
       - 함수
-      ```python
-      def plus(a, b) : # 매개변수 + 리턴값
-         res = a + b
-         return res
-      ```
+         ```python
+         def plus(a, b) : # 매개변수 + 리턴값
+            res = a + b
+            return res
+         ```
 
 ## 3일차
 - 파이썬 학습
@@ -104,30 +96,30 @@ print(f'나는 {name:<10}이고, 나이는 {age:03.1f}세 입니다.') # name �
    - OS내 디렉토리 검색
    - 아스키 및 유니코드
    - 주소록 앱 만들기
-   ```python
-   class Contact: # 주소록 클래스
-    def __init__(self, name, phoneNumber, eMail, addr) -> None: # 생성자
-        self.__name = name
-        self.__phoneNumber = phoneNumber
-        self.__eMail = eMail
-        self.__addr = addr
+      ```python
+      class Contact: # 주소록 클래스
+      def __init__(self, name, phoneNumber, eMail, addr) -> None: # 생성자
+         self.__name = name
+         self.__phoneNumber = phoneNumber
+         self.__eMail = eMail
+         self.__addr = addr
 
-    def __str__(self) -> str: # 원래출력 <__main__.Contact object at 0x0000024500772150> 
-        res = (f'이  름 : {self.__name}\n'
-            f'핸드폰 : {self.__phoneNumber}\n'
-            f'이메일 : {self.__eMail}\n'
-            f'주  소 : {self.__addr}')
-        return res
-    
-    def isNameExist(self, name): # 연락처 여부확인
-        if self.__name == name: # 찾는 이름 존재
-            return True
-        else:
-            return False
-        
-    def getInfo(self):
-        return self.__name, self.__phoneNumber, self.__eMail, self.__addr
-   ```
+      def __str__(self) -> str: # 원래출력 <__main__.Contact object at 0x0000024500772150> 
+         res = (f'이  름 : {self.__name}\n'
+               f'핸드폰 : {self.__phoneNumber}\n'
+               f'이메일 : {self.__eMail}\n'
+               f'주  소 : {self.__addr}')
+         return res
+      
+      def isNameExist(self, name): # 연락처 여부확인
+         if self.__name == name: # 찾는 이름 존재
+               return True
+         else:
+               return False
+         
+      def getInfo(self):
+         return self.__name, self.__phoneNumber, self.__eMail, self.__addr
+      ```
 
 
 ## 6일차 (24.02.28)
@@ -147,10 +139,7 @@ print(f'나는 {name:<10}이고, 나이는 {age:03.1f}세 입니다.') # name �
 
 
 
-
-
-
-      - [보안 문제 ssl 오류 뜰때 해결법](https://sooeun67.github.io/data%20analysis/solve-ssl-certificate-error/)
+   - [보안 문제 ssl 오류 뜰때 해결법](https://sooeun67.github.io/data%20analysis/solve-ssl-certificate-error/)
       ```python
          imtport ssl
          ssl._create_default_https_context = ssl._create_unverified_context # ssl 함수 생성
