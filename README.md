@@ -146,6 +146,18 @@ print(f'나는 {name:<10}이고, 나이는 {age:03.1f}세 입니다.') # name �
       ![alt text](images/naverApp.png)
 
 
+
+
+
+
+      - [보안 문제 ssl 오류 뜰때 해결법](https://sooeun67.github.io/data%20analysis/solve-ssl-certificate-error/)
+      ```python
+         imtport ssl
+         ssl._create_default_https_context = ssl._create_unverified_context # ssl 함수 생성
+      ```
+      
+
+
 ## 7일차
 - 파이썬 학습
    - PyQt5 학습
@@ -180,7 +192,23 @@ print(f'나는 {name:<10}이고, 나이는 {age:03.1f}세 입니다.') # name �
    }
    ```
    - TTS 학습
+   ```python
+      from gtts import gTTS
+
+      text = input('소리로 바꿀 텍스트 입력 > ')
+
+      speech = gTTS(text=text, lang='ko')
+      speech.save('./day07/tts.mp3')
+   ```
    - QR 코드 생성
+      
+      
+      ![alt text](images/manUQr.png)
+
+   - 구글 번역기 만들기
+      
+      
+      ![alt text](images/trans.png)
 
 
 
