@@ -20,7 +20,7 @@ class qtApp(QWidget):
     def initUI(self):
         self.setGeometry((1920 - 300)//2, (1080 - 300)//2, 320, 230) # 해상도 1920 x 1080에서 정중앙에 위치
         self.setWindowTitle('세번째 Qt앱')
-        self.setWindowIcon(QIcon('./images/windows.png'))
+        self.setWindowIcon(QIcon('./images/manU.png'))
         # 화면 UI에서 추가 or 변경할 것
         btn01 = QPushButton('클릭', self) # 버튼 객체 생성
         btn01.setGeometry(210, 180, 100, 40) # 버튼 위치 생성

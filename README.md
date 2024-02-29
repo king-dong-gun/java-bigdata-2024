@@ -104,6 +104,30 @@ print(f'나는 {name:<10}이고, 나이는 {age:03.1f}세 입니다.') # name �
    - OS내 디렉토리 검색
    - 아스키 및 유니코드
    - 주소록 앱 만들기
+   ```python
+   class Contact: # 주소록 클래스
+    def __init__(self, name, phoneNumber, eMail, addr) -> None: # 생성자
+        self.__name = name
+        self.__phoneNumber = phoneNumber
+        self.__eMail = eMail
+        self.__addr = addr
+
+    def __str__(self) -> str: # 원래출력 <__main__.Contact object at 0x0000024500772150> 
+        res = (f'이  름 : {self.__name}\n'
+            f'핸드폰 : {self.__phoneNumber}\n'
+            f'이메일 : {self.__eMail}\n'
+            f'주  소 : {self.__addr}')
+        return res
+    
+    def isNameExist(self, name): # 연락처 여부확인
+        if self.__name == name: # 찾는 이름 존재
+            return True
+        else:
+            return False
+        
+    def getInfo(self):
+        return self.__name, self.__phoneNumber, self.__eMail, self.__addr
+   ```
 
 
 ## 6일차 (24.02.28)
@@ -112,13 +136,53 @@ print(f'나는 {name:<10}이고, 나이는 {age:03.1f}세 입니다.') # name �
       - QWidget 자식 클래스 종류 학습
       - PyQt5Designer 설치
          - Mac Os에서 [PyQt5Designer](https://build-system.fman.io/qt-designer-download) 설치
+      
+      - QLabel 만들기
 
-
-         ![bigdata03](https://github.com/king-dong-gun/java-bigdata-2024/assets/160683545/9f2eb330-61ae-4ea7-a701-35246e64be82)
+      ![qLabel](https://github.com/king-dong-gun/java-bigdata-2024/assets/160683545/befe7b90-3f58-42a1-968a-97831b05d756)
          
    - Naver 뉴스 API 검색 앱      
          
-         ![bigdata04](https://github.com/king-dong-gun/java-bigdata-2024/assets/160683545/69b904fd-5e09-4ba9-a6ed-14f83bd890b7)
+      ![naverApp](https://github.com/king-dong-gun/java-bigdata-2024/assets/160683545/fcc889cb-6805-4d70-b2dc-e1e2cd3f4771) {: width="30" height="30"}
+
+
+
+## 7일차
+- 파이썬 학습
+   - PyQt5 학습
+      - Naver 뉴스 API 검색 앱 마무리
+      - 스레드 개념 및 학습
+         - NoThreadApp _ 응답 X
+
+
+         ![noThread](https://github.com/king-dong-gun/java-bigdata-2024/assets/160683545/06a0e215-cf7c-4c01-bd8c-ccda722844f7)
+
+         
+         
+         - ThreadApp _ 응답 Ok
+
+
+         ![Thread](https://github.com/king-dong-gun/java-bigdata-2024/assets/160683545/abcf3ccd-dcd8-4eba-af45-0201da9ecdff)
+
+   - json 학습
+      - json 데이터 접근은 파이썬 dictionary, list와 동일하게 사용가능
+   ```python
+      {
+      "ManU": {
+         "LigueWinner": 20,
+         "UclWineer": 3,
+         "TopPlayer": "Bruno"
+      },
+      "Tottenham": {
+         "LigueWinner": 0,
+         "UclWineer": 0,
+         "BestPlayer": "Maddison"
+      }
+   }
+   ```
+   - TTS 학습
+   - QR 코드 생성
+
 
 
    

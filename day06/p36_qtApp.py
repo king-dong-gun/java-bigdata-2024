@@ -23,7 +23,7 @@ class qtApp(QWidget):  # QWidget이 가지고 있는 속성, 변수, 함수를 �
         self.setGeometry(300, 300, 800, 400) # 바탕화면 정해진 위치에 넓이와 높이로 그릴 설정
         self.setWindowTitle('두번째 Qt앱')
         self.setWindowIcon(QIcon('./images/windows.png'))
-        self.text = 'When you plan vacation'
+        self.text = 'Groly Man United'
         label.setText(self.text)
         label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         label.setStyleSheet(('color: red;'

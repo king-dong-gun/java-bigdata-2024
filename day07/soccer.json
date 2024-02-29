@@ -1,0 +1,12 @@
+{
+	"ManU": {
+		"LigueWinner": 20,
+		"UclWineer": 3,
+		"TopPlayer": "Bruno"
+	},
+	"Tottenham": {
+		"LigueWinner": 0,
+		"UclWineer": 0,
+		"BestPlayer": "Maddison"
+	}
+}
