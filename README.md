@@ -15,10 +15,8 @@
    - 공동작업과 유지보수가 매우 편리.
    - 쉽고 간결한 문법, 무료지만 빠른 개발속도
 
-# 파이썬 특징
-
-- 파이썬 기초문법
-    # 숫자형
+# 파이썬 기초문법
+    - 숫자형
       - 정수형
       - 실수형
       - 사칙연산
@@ -29,7 +27,7 @@
    Val = 2.15 # 실수형
    binVal = 0b11111111 # =255 (2진수)
    ```
-   # 문자형
+   - 문자형
       - 문자열 연산
       - 문자열 인덱싱과 슬라이싱
       - 문자열 포매팅
@@ -55,41 +53,35 @@
 ## 2일차
 - 파이썬 학습
    - 파이썬 기초문법
-      - 딕셔너리, 집합
-         - Key, Value를 한쌍으로 가지는 자료형
-            ```python
-            spiderMan = {'name': 'Petter Parker', 'age': 18, 'weapon': 'Web shooter', 'freind': ["ironMan", 'Thor','Captain America']}
-               print(spiderMan)
-               print(spiderMan['name'])
-            ```
-         - 집합은 중복을 허용하지 않고, 순서가 정해지지 않는다.
-      - 불형
-         - 참, 거짓을 나타내는 자료형
-      - None형
-      - 제어문
-         - if문, for문, while문
-      - 제어문 연습
-      - 함수
+   - 딕셔너리, 집합
+      - Key, Value를 한쌍으로 가지는 자료형
          ```python
-         def plus(a, b) : # 매개변수 + 리턴값
-            res = a + b
-            return res
+            spiderMan = {'name': 'Petter Parker', 'age': 18, 'weapon': 'Web shooter', 'freind': ["ironMan", 'Thor','Captain America']}
+            print(spiderMan)
+            print(spiderMan['name'])
          ```
+      - 집합은 중복을 허용하지 않고, 순서가 정해지지 않는다.
+   - 불형
+      - 참, 거짓을 나타내는 자료형
+   - None형
+   - 제어문
+      - if문, for문, while문
+      - 제어문 연습
 
 ## 3일차
 - 파이썬 학습
    - 파이썬 기초 문법
-      - 입출력
-      - 객체 지향
+   - 입출력
+   - 객체 지향
 
 ## 4일차
 - 파이썬 학습
    - 파이썬 기초 문법
-      - 모듈,패키지
-         - 모듈을 패키지로 만들 필요X, 함수들만 모아놔도 OK
-         - if__name__ == java에서 void main()
-      - ⭐️ 예외처리, 디버깅 ⭐️
-      - 내장함수
+   - 모듈,패키지
+      - 모듈을 패키지로 만들 필요X, 함수들만 모아놔도 OK
+      - if__name__ == java에서 void main()
+   - ⭐️ 예외처리, 디버깅 ⭐️
+   - 내장함수
 
 ## 5일차
 - 파이썬 학습
@@ -148,47 +140,47 @@
 
 
 ## 7일차
-- 파이썬 학습
+# 파이썬 학습
    - PyQt5 학습
-      - Naver 뉴스 API 검색 앱 마무리
-      - 스레드 개념 및 학습
-         - NoThreadApp _ 응답 X
+   - Naver 뉴스 API 검색 앱 마무리
+   - 스레드 개념 및 학습
+      - NoThreadApp _ 응답 X
 
 
-         ![alt text](images/noThread.png)
+      ![alt text](images/noThread.png)
 
          
          
-         - ThreadApp _ 응답 Ok
+      - ThreadApp _ 응답 Ok
 
-         ![alt text](images/Thread.png)
+      ![alt text](images/Thread.png)
          
 
    - json 학습
-      - json 데이터 접근은 파이썬 dictionary, list와 동일하게 사용가능
-   ```python
-      {
-      "ManU": {
-         "LigueWinner": 20,
-         "UclWineer": 3,
-         "TopPlayer": "Bruno"
-      },
-      "Tottenham": {
-         "LigueWinner": 0,
-         "UclWineer": 0,
-         "BestPlayer": "Maddison"
+   - json 데이터 접근은 파이썬 dictionary, list와 동일하게 사용가능
+      ```python
+         {
+         "ManU": {
+            "LigueWinner": 20,
+            "UclWineer": 3,
+            "TopPlayer": "Bruno"
+         },
+         "Tottenham": {
+            "LigueWinner": 0,
+            "UclWineer": 0,
+            "BestPlayer": "Maddison"
+         }
       }
-   }
-   ```
+      ```
    - TTS 학습
-   ```python
-      from gtts import gTTS
+      ```python
+         from gtts import gTTS
 
-      text = input('소리로 바꿀 텍스트 입력 > ')
+         text = input('소리로 바꿀 텍스트 입력 > ')
 
-      speech = gTTS(text=text, lang='ko')
-      speech.save('./day07/tts.mp3')
-   ```
+         speech = gTTS(text=text, lang='ko')
+         speech.save('./day07/tts.mp3')
+      ```
    - QR 코드 생성
       
       
