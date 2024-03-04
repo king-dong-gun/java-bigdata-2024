@@ -198,7 +198,13 @@
    <!--![firstApp png](https://github.com/king-dong-gun/java-bigdata-2024/assets/160683545/a3597e51-8031-4c8a-985a-ff7d0cee4005)-->
    <!-- html 태그로 이미지를 삽입하면 문제없음 -->
    <img src="https://github.com/king-dong-gun/java-bigdata-2024/assets/160683545/a3597e51-8031-4c8a-985a-ff7d0cee4005" width="250">
-   - Tesseract 프로그램으로 이미지에서 글자 추출
+   
+   
+   - Tesseract 프로그램으로 이미지에서 글자 추출 (인식율을 높히려면 직접 트레이닝을 해서 트레이닝 데이터를 만들어야함)
+
+
+
+   <img src="https://github.com/king-dong-gun/java-bigdata-2024/assets/160683545/10157261-e528-42d5-b5f7-9c7fca62c8e9" width="800">
 
 
 
