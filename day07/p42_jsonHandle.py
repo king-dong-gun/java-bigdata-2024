@@ -33,7 +33,7 @@ soccer['ManU'] = ManU
 Tottenham = dict()
 Tottenham['LigueWinner'] = 0
 Tottenham['UclWineer'] = 0
-Tottenham['BestPlayer'] = 'Maddison'
+Tottenham['BestPlayer'] = 'Hmm..'
 soccer['Tottenham'] = Tottenham
 
 # json 파일 저장

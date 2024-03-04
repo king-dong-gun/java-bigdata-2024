@@ -193,9 +193,12 @@
 
 ## 8일차
 - 파이썬 응용
-   - 파이썬 자동화
-      - PyAutoGui 모듈(마우스, 키보드, 화면캡처)
-      - 슬랙 webhook으로 모바일 메시지 보내기
+   - PyAutoGui 모듈(마우스, 키보드, 화면캡처)
+   - 슬랙 webhook으로 모바일 메시지 보내기
+   <!--![firstApp png](https://github.com/king-dong-gun/java-bigdata-2024/assets/160683545/a3597e51-8031-4c8a-985a-ff7d0cee4005)-->
+   <!-- html 태그로 이미지를 삽입하면 문제없음 -->
+   <img src="https://github.com/king-dong-gun/java-bigdata-2024/assets/160683545/a3597e51-8031-4c8a-985a-ff7d0cee4005" width="250">
+   - Tesseract 프로그램으로 이미지에서 글자 추출
 
 
 

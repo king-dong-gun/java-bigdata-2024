@@ -6,14 +6,14 @@
 3. 워크스페이스 선택
 4. Incomming Webhooks > On > Add New webhook to Workspace 클릭 > 채널선택 > 허용
 '''
-# https://hooks.slack.com/services/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 # 깃헙 업로드전 삭제 필요
+
 import requests
 import json
 
-slack_url = 'https://hooks.slack.com/services/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' # 깃헙 업로드전 삭제 필요
+slack_url = 'https://hooks.slack.com/services/T06M9D*****/B06N2L*****/6H1RVVPJxv8538jmG*****' # 깃헙 업로드전 삭제 필요
 
 headers = { 'Content-type' : 'application/json'}
-data = { 'text' : '멀보노 ㅋㅋ'}
+data = { 'text' : 'Python에서 보낸 메세지입니다^^'}
 
 res = requests.post(slack_url, headers=headers, data=json.dumps(data))
 if res.status_code == 200 :
