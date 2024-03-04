@@ -191,6 +191,12 @@
       
       ![alt text](images/trans.png)
 
+## 8일차
+- 파이썬 응용
+   - 파이썬 자동화
+      - PyAutoGui 모듈(마우스, 키보드, 화면캡처)
+      - 슬랙 webhook으로 모바일 메시지 보내기
+
 
 
    
