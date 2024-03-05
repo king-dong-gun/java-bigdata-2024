@@ -215,13 +215,22 @@
 
 
    - [Flask](https://flask-docs-kr.readthedocs.io/ko/latest/index.html), [Django](https://developer.mozilla.org/ko/docs/Learn/Server-side/Django) 웹서버
+
+   ```python
+      # sudo 관리자 권한 부여 방법
+      터미널에서 ′Sudo visudo′를 실행
+      [사용자명 ALL=(ALL) NOPASSWD:ALL] 형태로 1행 추가
+      ```
+      [DKel:티스토리](https://dkel.tistory.com/1154)
+   
+
    - 그림 에디터 만들기 (with PyQt5)
       ```python
       ## qrc파일 사용 >> 터미널 >> pyrcc5 "pyrcc5 "resources.qrc" -o "resources_rc.py"
       import resources_rc
       ```
 
-      
+
 ## 10일차
 # 파이썬 응용 
    - 메모장 만들기
