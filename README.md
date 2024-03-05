@@ -140,7 +140,7 @@
 
 
 ## 7일차
-# 파이썬 학습
+# 파이썬 응용
    - PyQt5 학습
    - Naver 뉴스 API 검색 앱 마무리
    - 스레드 개념 및 학습
@@ -192,7 +192,7 @@
       ![alt text](images/trans.png)
 
 ## 8일차
-- 파이썬 응용
+# 파이썬 응용
    - PyAutoGui 모듈(마우스, 키보드, 화면캡처)
    - 슬랙 webhook으로 모바일 메시지 보내기
    <!--![firstApp png](https://github.com/king-dong-gun/java-bigdata-2024/assets/160683545/a3597e51-8031-4c8a-985a-ff7d0cee4005)-->
@@ -204,8 +204,25 @@
 
 
 
-   <img src="https://github.com/king-dong-gun/java-bigdata-2024/assets/160683545/10157261-e528-42d5-b5f7-9c7fca62c8e9" width="800">
+   <img src="https://github.com/king-dong-gun/java-bigdata-2024/assets/160683545/eab963a3-a3a4-46e2-a40c-e3c3312933a0" width="800">
+
+## 9일차
+# 파이썬 응용
+   - 이미지 처리 OpenCV [OpenCV 설치 - superMemi's study님 t-story 참조](https://supermemi.tistory.com/entry/M1-MacBook-OpenCV-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0)
 
 
+   ![이미지처리](https://github.com/king-dong-gun/java-bigdata-2024/assets/160683545/c8ec34b7-8e0e-4f7c-8e95-22cfb03fc31c)
 
-   
+
+   - [Flask](https://flask-docs-kr.readthedocs.io/ko/latest/index.html), [Django](https://developer.mozilla.org/ko/docs/Learn/Server-side/Django) 웹서버
+   - 그림 에디터 만들기 (with PyQt5)
+      ```python
+      ## qrc파일 사용 >> 터미널 >> pyrcc5 "pyrcc5 "resources.qrc" -o "resources_rc.py"
+      import resources_rc
+      ```
+
+      
+## 10일차
+# 파이썬 응용 
+   - 메모장 만들기
+   - Jupyter Notebook 사용법(빅데이터 분석, 코딩테스트)
