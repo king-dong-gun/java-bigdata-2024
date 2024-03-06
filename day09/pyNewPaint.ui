@@ -82,6 +82,7 @@
     </widget>
     <addaction name="menu_Pen"/>
     <addaction name="menu_Trans_T"/>
+    <addaction name="action_Blur"/>
    </widget>
    <widget class="QMenu" name="menu_Help">
     <property name="title">
@@ -193,6 +194,11 @@
   <action name="action_GrayScale">
    <property name="text">
     <string>GraseCale(&amp;G)</string>
+   </property>
+  </action>
+  <action name="action_Blur">
+   <property name="text">
+    <string>Blur(&amp;B)</string>
    </property>
   </action>
  </widget>

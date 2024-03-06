@@ -1,0 +1,3 @@
+([('p66_imageEditor',
+   '/Users/kimdonggun/Desktop/study/source/java-bigdata-2024/day09/dist/p66_imageEditor',
+   'EXECUTABLE')],)

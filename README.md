@@ -216,14 +216,16 @@
 
    - [Flask](https://flask-docs-kr.readthedocs.io/ko/latest/index.html), [Django](https://developer.mozilla.org/ko/docs/Learn/Server-side/Django) 웹서버
 
-   ```python
-      # sudo 관리자 권한 부여 방법
-      터미널에서 ′Sudo visudo′를 실행
-      [사용자명 ALL=(ALL) NOPASSWD:ALL] 형태로 1행 추가
-      ```
-      [DKel:티스토리](https://dkel.tistory.com/1154)
+      ```python
+         # sudo 관리자 권한 부여 방법
+         터미널에서 ′Sudo visudo′를 실행
+         [사용자명 ALL=(ALL) NOPASSWD:ALL] 형태로 1행 추가
+         ```
+   - [DKel님 티스토리 참조](https://dkel.tistory.com/1154) >> sudo 관리자 권한 부여 방법
    
 
+   
+   
    - 그림 에디터 만들기 (with PyQt5)
       ```python
       ## qrc파일 사용 >> 터미널 >> pyrcc5 "pyrcc5 "resources.qrc" -o "resources_rc.py"
@@ -233,5 +235,24 @@
 
 ## 10일차
 # 파이썬 응용 
+   - 이미지 에디터 완성 (OpenCV 그레이스케일, 블러기능 추가)
+   - 실행파일 만들기
+      - PyInstaller 모듈 설치
+      ```shell
+      # 설치
+      pip3 install pyinstaller
+
+      # 최신 버전으로 업그레이드 (첫 설치 시에는 필요없음)
+      pip3 install --upgrade pyinstaller
+
+      # 설치되어 있는지 확인
+      pyinstaller --version
+
+      # pyinstaller 사용법
+      pyinstaller -w 파이썬 파일명.py
+      ```
+      - -w >> 윈도우창에서만 실행, 콘솔 창은 삭제
+      - -F >> _internal 폴더 생성이 안됨, oneFile로 생성
+      - 실패 후 재생성시 build, dist 폴더, pythonfile.spec 삭제 후 명령어 재실행
    - 메모장 만들기
    - Jupyter Notebook 사용법(빅데이터 분석, 코딩테스트)
