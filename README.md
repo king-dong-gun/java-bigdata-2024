@@ -256,3 +256,4 @@
       - 실패 후 재생성시 build, dist 폴더, pythonfile.spec 삭제 후 명령어 재실행
    - 메모장 만들기
    - Jupyter Notebook 사용법(빅데이터 분석, 코딩테스트)
+      - 명령 팔레트 >> Command + Shift + P
