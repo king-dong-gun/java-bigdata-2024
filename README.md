@@ -254,6 +254,29 @@
       - -w >> 윈도우창에서만 실행, 콘솔 창은 삭제
       - -F >> _internal 폴더 생성이 안됨, oneFile로 생성
       - 실패 후 재생성시 build, dist 폴더, pythonfile.spec 삭제 후 명령어 재실행
-   - 메모장 만들기
    - Jupyter Notebook 사용법(빅데이터 분석, 코딩테스트)
       - 명령 팔레트 >> Command + Shift + P
+      - 최초 실행 후 반드시 저장
+      ```shell
+      # 구글 지도 타일 설정
+      tiles = "http://mt0.google.com/vt/lyrs=m&hl=ko&x={x}&y={y}&z={z}"
+      # 속성 설정
+      attr = "Google"
+
+      map = folium.Map(location=[35.178508, 129.199443], zoom_start=16, tiles=tiles, attr=attr)
+
+      popup = folium.Popup('<pre>하삼동 존맛ㅋㅋ</pre>', min_width=200, max_width=300)
+      folium.Marker(location=[35.1808978, 129.2035002], tooltip='송정 하삼동', popup=popup, icon=folium.Icon(color='yellow', icon='heart')).add_to(map)
+      popup = folium.Popup('<pre>스벅은 별로ㅋㅋ</pre>', min_width=200, max_width=300)
+      folium.Marker(location=[35.180762, 129.202324], tooltip='송정 스타벅스', popup=popup, icon=folium.Icon(color='green', icon='heart')).add_to(map)
+      map
+      ```
+
+      ![지도 만들기](https://github.com/king-dong-gun/java-bigdata-2024/assets/160683545/6a6e5bfa-8458-41e0-9f50-554ba8752296)
+
+
+   
+
+
+
+   - 메모장 만들기
