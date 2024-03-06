@@ -74,14 +74,14 @@
      <addaction name="action_Green"/>
      <addaction name="action_Blue"/>
     </widget>
-    <widget class="QMenu" name="menuTrans_T">
+    <widget class="QMenu" name="menu_Trans_T">
      <property name="title">
       <string>Trans(&amp;T)</string>
      </property>
-     <addaction name="action_GraseCale"/>
+     <addaction name="action_GrayScale"/>
     </widget>
     <addaction name="menu_Pen"/>
-    <addaction name="menuTrans_T"/>
+    <addaction name="menu_Trans_T"/>
    </widget>
    <widget class="QMenu" name="menu_Help">
     <property name="title">
@@ -190,7 +190,7 @@
     <string>About(&amp;A)</string>
    </property>
   </action>
-  <action name="action_GraseCale">
+  <action name="action_GrayScale">
    <property name="text">
     <string>GraseCale(&amp;G)</string>
    </property>
